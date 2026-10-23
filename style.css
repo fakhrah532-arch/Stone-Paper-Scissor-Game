@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    height: 85px;
+    width:100%;
+    background-color: #023e8a;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.images {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.img1:hover, 
+.img2:hover, 
+.img3:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.img1, .img2, .img3 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img1 img, .img2 img, .img3 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+.scorepart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.you{
+    font-size: 3rem;
+}
+.comp{
+    font-size: 3rem;
+}
+.msg{
+       margin-top: 50px;
+       background-color: #0077b6;
+       color:white;
+       font-size: 2rem;
+       border-radius: 5px;
+       width:200px;
+       text-align: center;
+       margin: 50px auto;
+}
